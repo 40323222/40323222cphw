@@ -309,8 +309,7 @@
 <v t=".20151011231335.6" a="E"><vh>div class="slides"</vh>
 <v t=".20151011231335.7"><vh>封面</vh></v>
 <v t=".20151011231335.8"><vh>第二頁</vh></v>
-<v t=".20151011231335.9"><vh>第三頁</vh></v>
-<v t=".20151011231335.10"><vh>第四頁</vh></v>
+<v t=".20151011231335.10"><vh>第三頁</vh></v>
 </v>
 </v>
 <v t=".20151011231335.11"><vh>script</vh></v>
@@ -518,9 +517,9 @@
 </t>
 <t tx=".20151011231335.10">&lt;section&gt;
     &lt;h3&gt;心得與自評分數&lt;/h3&gt;
-    &lt;p&gt;自評分數為：65分&lt;/p&gt;
+    &lt;p&gt;自評分數為：70分&lt;/p&gt;
     &lt;hr&gt;
-    &lt;p&gt;&lt;/p&gt;
+    &lt;p&gt;以前3D軟體只會AutoDSEK的我，用到此繪圖方式覺得很不錯，操作容易，指令也簡單許多。&lt;/p&gt;
 &lt;/section&gt;
 				
 </t>
@@ -579,12 +578,7 @@
 </t>
 <t tx=".20151011231335.8">&lt;section id="hw-task-one"&gt;
     &lt;h3&gt;筆記&lt;/h3&gt;
-    &lt;p&gt;&lt;/p&gt;
-&lt;/section&gt;
-				
-</t>
-<t tx=".20151011231335.9">&lt;section id="hw-task-one"&gt;
-    &lt;p&gt;&lt;/p&gt;
+    &lt;p&gt;若master裡無資料：git clone後面加"專案名稱 --branch gh-pages" 即可下載之&lt;/p&gt;
 &lt;/section&gt;
 				
 </t>
