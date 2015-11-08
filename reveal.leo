@@ -40,6 +40,7 @@
 <v t="amd.20150919114035.1"><vh>@edit 2015cphww1.md</vh></v>
 <v t=".20151011231222.1"><vh>@edit 2015cphww4.md</vh></v>
 <v t="leo.20151020154539.1"><vh>@edit 2015cphww5.md</vh></v>
+<v t="leo.20151108214603.1"><vh>@edit 2015cphww6.md</vh></v>
 <v t="amd.20150920000911.1"><vh>@edit 2015cpnote1.md</vh></v>
 </v>
 <v t="amd.20150919120205.1"><vh>以下為 reveal 投影片</vh></v>
@@ -268,7 +269,7 @@
 </v>
 </v>
 </v>
-<v t="ibm.20150918175403.1" a="E"><vh>@clean cpw1.html</vh>
+<v t="ibm.20150918175403.1"><vh>@clean cpw1.html</vh>
 <v t="ibm.20150918175403.2"><vh>檔案說明</vh></v>
 <v t="ibm.20150918175403.3" a="E"><vh>html 標註</vh>
 <v t="ibm.20150918175403.4" a="E"><vh>body 標註</vh>
@@ -302,7 +303,22 @@
 </v>
 </v>
 </v>
-<v t="leo.20151020154557.1" a="E"><vh>@clean simplest3.html</vh>
+<v t=".20151011231335.1"><vh>@clean simplest2.html</vh>
+<v t=".20151011231335.2"><vh>檔案說明</vh></v>
+<v t=".20151011231335.3" a="E"><vh>html 標註</vh>
+<v t=".20151011231335.4" a="E"><vh>body 標註</vh>
+<v t=".20151011231335.5" a="E"><vh>div class="reveal"</vh>
+<v t=".20151011231335.6" a="E"><vh>div class="slides"</vh>
+<v t=".20151011231335.7"><vh>封面</vh></v>
+<v t=".20151011231335.8"><vh>第二頁</vh></v>
+<v t=".20151011231335.10"><vh>第三頁</vh></v>
+</v>
+</v>
+<v t=".20151011231335.11"><vh>script</vh></v>
+</v>
+</v>
+</v>
+<v t="leo.20151020154557.1"><vh>@clean simplest3.html</vh>
 <v t="leo.20151020154557.2"><vh>檔案說明</vh></v>
 <v t="leo.20151020154557.3" a="E"><vh>html 標註</vh>
 <v t="leo.20151020154557.4" a="E"><vh>body 標註</vh>
@@ -317,18 +333,18 @@
 </v>
 </v>
 </v>
-<v t=".20151011231335.1" a="E"><vh>@clean simplest2.html</vh>
-<v t=".20151011231335.2"><vh>檔案說明</vh></v>
-<v t=".20151011231335.3" a="E"><vh>html 標註</vh>
-<v t=".20151011231335.4" a="E"><vh>body 標註</vh>
-<v t=".20151011231335.5" a="E"><vh>div class="reveal"</vh>
-<v t=".20151011231335.6" a="E"><vh>div class="slides"</vh>
-<v t=".20151011231335.7"><vh>封面</vh></v>
-<v t=".20151011231335.8"><vh>第二頁</vh></v>
-<v t=".20151011231335.10"><vh>第三頁</vh></v>
+<v t="leo.20151108215641.1" a="E"><vh>@clean simplest4.html</vh>
+<v t="leo.20151108215641.2"><vh>檔案說明</vh></v>
+<v t="leo.20151108215641.3" a="E"><vh>html 標註</vh>
+<v t="leo.20151108215641.4" a="E"><vh>body 標註</vh>
+<v t="leo.20151108215641.5" a="E"><vh>div class="reveal"</vh>
+<v t="leo.20151108215641.6" a="E"><vh>div class="slides"</vh>
+<v t="leo.20151108215641.7"><vh>封面</vh></v>
+<v t="leo.20151108215641.8"><vh>第二頁</vh></v>
+<v t="leo.20151108215641.9"><vh>第三頁</vh></v>
 </v>
 </v>
-<v t=".20151011231335.11"><vh>script</vh></v>
+<v t="leo.20151108215641.10"><vh>script</vh></v>
 </v>
 </v>
 </v>
@@ -2440,6 +2456,85 @@ sudo pip3 install IPython[notebook]==3.2.1
     &lt;br&gt;
     &lt;p&gt;草繪→繪出斷面→擠出或迴轉：零件&lt;/p&gt;
    
+&lt;/section&gt;
+				
+</t>
+<t tx="leo.20151108215641.1">@language xml
+@tabwidth -4
+@others
+
+</t>
+<t tx="leo.20151108215641.10">&lt;script src="lib/js/head.min.js"&gt;&lt;/script&gt;
+&lt;script src="js/reveal.min.js"&gt;&lt;/script&gt;
+&lt;script&gt;
+    // 啟動 Reveal.
+    Reveal.initialize({
+    });
+&lt;/script&gt;
+	
+</t>
+<t tx="leo.20151108215641.2">&lt;!--
+這個檔案展示了 reveal.js 投影片資料的基本架構
+其中使用 "reveal" class 與 "slides" class 來界定投影片的資料範圍
+而各投影片則以 &lt;section&gt;&lt;/section&gt; 標示
+且支援平行與垂直的投影片配置方法
+--&gt;
+</t>
+<t tx="leo.20151108215641.3">&lt;!doctype html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+&lt;meta charset="utf-8"&gt;
+&lt;title&gt;最簡單的 reveal 超文件&lt;/title&gt;
+&lt;link rel="stylesheet" href="css/reveal.min.css"&gt;
+	&lt;link rel="stylesheet" href="css/theme/default.css" id="theme"&gt;	
+	&lt;!--增加對於 IE 早期版本的支援 --&gt;
+	&lt;!--[if lt IE 9]&gt;
+	&lt;script src="lib/js/html5shiv.js"&gt;&lt;/script&gt;
+	&lt;![endif]--&gt;
+&lt;/head&gt;
+@others
+</t>
+<t tx="leo.20151108215641.4">&lt;body&gt;
+@others
+&lt;/body&gt;
+</t>
+<t tx="leo.20151108215641.5">&lt;!-- 將整個投影片包在 "reveal" class 中 --&gt;
+&lt;div class="reveal"&gt;
+@others
+&lt;/div&gt;
+</t>
+<t tx="leo.20151108215641.6">&lt;!-- 將所有投影片包在 "slides" class 中 --&gt;
+&lt;div class="slides"&gt;
+@others
+&lt;/div&gt;
+</t>
+<t tx="leo.20151108215641.7">&lt;!-- 以下為投影片 --&gt;
+&lt;!-- 每一個 section 都代表一張投影片,  --&gt;
+&lt;!-- section 標註中的多 section 標註, 將往下垂直延伸 --&gt;
+&lt;section&gt;
+    &lt;h3&gt;四設計二乙&lt;/h3&gt;
+    &lt;p&gt;40323222 林宗濠 &lt;/p&gt;		
+&lt;/section&gt;
+	
+</t>
+<t tx="leo.20151108215641.8">&lt;section id="hw-task-one"&gt;
+    &lt;h3&gt;筆記&lt;/h3&gt;
+    &lt;p&gt;草繪→繪出斷面→擠出或迴轉：零件&lt;/p&gt;
+    &lt;br&gt;
+    &lt;p&gt;標註尺寸時，點選"法向"再點選欲標註之範圍，再按滑鼠滾輪即可。&lt;/p&gt;
+    &lt;br&gt;
+    &lt;p&gt;在cmd裡輸入"git branch"可知現在在什麼地方。&lt;/p&gt;
+    &lt;br&gt;
+    &lt;p&gt;一定要先pull最新資料才能push，以免舊資料覆蓋掉。&lt;/p&gt;
+   
+&lt;/section&gt;
+				
+</t>
+<t tx="leo.20151108215641.9">&lt;section&gt;
+    &lt;h3&gt;心得與自評分數&lt;/h3&gt;
+    &lt;p&gt;自評分數為：85分&lt;/p&gt;
+    &lt;hr&gt;
+    &lt;p&gt;自己獨自完成了腳踏車的繪製，從看圖建模→組合→彩現，花了不少時間，但成果是自己還滿意的。過程很有趣，其中最難掌握的是組合的時候，因不清楚車體收摺時是否會干涉，經過多次進草圖後，終於完成了此3D圖。&lt;/p&gt;
 &lt;/section&gt;
 				
 </t>
